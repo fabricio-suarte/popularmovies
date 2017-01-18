@@ -1,0 +1,69 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="AppActivityDefaultPadding" parent="AppTheme">
+        <item name="android:paddingBottom">@dimen/activity_vertical_margin</item>
+        <item name="android:paddingLeft">@dimen/activity_horizontal_margin</item>
+        <item name="android:paddingRight">@dimen/activity_horizontal_margin</item>
+        <item name="android:paddingTop">@dimen/activity_vertical_margin</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+    </style>
+
+    <style name="AppActivityNoPadding" parent="AppTheme">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+    </style>
+
+    <!-- Base style for Gridview Movie Thumbnail -->
+    <style name="AppGridViewThumbNail">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:numColumns">auto_fit</item>
+        <item name="android:columnWidth">@dimen/gridview_column_width</item>
+        <item name="android:verticalSpacing">@dimen/gridview_vertical_spacing</item>
+        <item name="android:horizontalSpacing">@dimen/gridview_horizontal_spacing</item>
+        <item name="android:stretchMode">spacingWidthUniform</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_gravity">center_horizontal|top</item>
+    </style>
+
+    <!-- Defaul ImageView item style -->
+    <style name="AppDefaultImageView">
+        <item name="android:minWidth">@dimen/imageView_min_width</item>
+        <item name="android:minHeight">@dimen/imageView_min_height</item>
+        <item name="android:scaleType">fitXY</item>
+    </style>
+
+    <!-- Base style for ImageView in the Gridview -->
+    <style name="AppGridViewThumbNailItem" parent="AppDefaultImageView">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+    </style>
+
+    <style name="AppMovieDetailTitle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:minHeight">100dp</item>
+        <item name="android:gravity">center_horizontal|center_vertical</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:textSize">@dimen/movie_detail_title_size</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:background">@color/colorAccent</item>
+    </style>
+
+    <style name="AppHorizontalSpacer">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">3dp</item>
+        <item name="android:background">@color/colorAccent</item>
+    </style>
+
+</resources>

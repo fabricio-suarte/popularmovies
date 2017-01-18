@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:title="@string/pref_screen_title">
+
+    <!-- Display order options -->
+    <ListPreference
+        android:key="@string/pref_sort_criteria_key"
+        android:title="@string/pref_sort_criteria_title"
+        android:dialogTitle="@string/pref_sort_criteria_dialog_title"
+        android:entries="@array/pref_sort_criteria_options"
+        android:entryValues="@array/pref_sort_criteria_values"
+        android:defaultValue="@string/pref_sort_criteria_most_popular_value" />
+
+    <CheckBoxPreference
+        android:key="@string/pref_show_only_favorites_key"
+        android:title="@string/pref_show_only_favorites_title"
+        android:defaultValue="@string/pref_show_only_favorites_not_checked"
+         />
+
+    <ListPreference
+        android:key="@string/pref_max_number_of_pages_key"
+        android:title="@string/pref_max_number_of_pages_title"
+        android:dialogTitle="@string/pref_max_number_of_pages_dialog_title"
+        android:entries="@array/pref_max_number_of_pages_entries"
+        android:entryValues="@array/pref_max_number_of_pages_entries"
+        android:defaultValue="@string/pref_max_number_of_pages_default_value"
+        />
+
+</PreferenceScreen>

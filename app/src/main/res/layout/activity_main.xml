@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/AppActivityDefaultPadding"
+    android:id="@+id/activity_main"
+    tools:context=".MainActivity">
+
+    <!-- The static fragment -->
+    <fragment
+        android:id="@+id/fragment_movies"
+        android:name="com.udacity.suarte.popularmovies.fragment.MoviesFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:tag="@string/fragment_movies_tag"/>
+
+</FrameLayout>

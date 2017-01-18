@@ -1,0 +1,4 @@
+<ImageView xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/AppGridViewThumbNailItem"
+    android:id="@+id/imageView_GridItem_Poster"
+    android:contentDescription="" />

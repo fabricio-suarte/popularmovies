@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="pref_sort_criteria_options">
+        <item>@string/pref_sort_criteria_most_popular_option</item>
+        <item>@string/pref_sort_criteria_highest_rated_option</item>
+    </string-array>
+
+    <string-array name="pref_sort_criteria_values">
+        <item>@string/pref_sort_criteria_most_popular_value</item>
+        <item>@string/pref_sort_criteria_highest_rated_value</item>
+    </string-array>
+
+    <string-array name="pref_max_number_of_pages_entries">
+        <item>"1"</item>
+        <item>"2"</item>
+        <item>"3"</item>
+        <item>"4"</item>
+        <item>"5"</item>
+    </string-array>
+
+    <integer-array name="pref_max_number_of_pages_values">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </integer-array>
+</resources>

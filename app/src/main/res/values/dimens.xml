@@ -1,0 +1,26 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <!-- Min size for image views -->
+    <dimen name="imageView_min_width">185dp</dimen>
+    <dimen name="imageView_min_height">277dp</dimen>
+
+    <!-- Some grid view tweaks -->
+    <dimen name="gridview_vertical_spacing">5dp</dimen>
+    <dimen name="gridview_horizontal_spacing">5dp</dimen>
+
+    <!-- It is necessary to set the Gridview column width (preferable to the same value as min image view width).
+         Once "numColumns" is set to "auto_fit", it is necessary to give it a properly column size, otherwise
+         movie posters can be weirdly drawn - like wide stretched -->
+    <dimen name="gridview_column_width">@dimen/imageView_min_width</dimen>
+
+    <dimen name="default_movie_details_margin">16dp</dimen>
+    <dimen name="movie_details_thinner_margin">8dp</dimen>
+    <dimen name="movie_detail_title_size">25sp</dimen>
+
+    <dimen name="recyclerview_videos_item_min_height">35dp</dimen>
+    <dimen name="recyclerview_reviews_item_min_height">35dp</dimen>
+
+</resources>

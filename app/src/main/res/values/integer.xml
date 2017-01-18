@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <integer name="rating_bar_default_stars">5</integer>
+    <integer name="TMDb_max_rating_scale">10</integer>
+
+    <!-- Ids for adding tags to the video play buttons.
+         In order to use the method setTag(int key, Object value) of a 'View' object,
+         the given key must be declared in resource files as "id" type -->
+    <item type="id" name="videoPlayKeyTag" />
+    <item type="id" name="videoPlaySiteTag" />
+    <item type="id" name="reviewFullContentTag" />
+    <item type="id" name="favoriteCheckValueTag" />
+</resources>
